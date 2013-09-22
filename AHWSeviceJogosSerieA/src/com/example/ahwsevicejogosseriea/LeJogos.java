@@ -103,11 +103,6 @@ public class LeJogos extends Service {
 					int idRecebido = fato.getInt("id");
 					
 					if (idRecebido != id){
-						/*Log.e("JOGOSERVICE", fato.getString("tipo"));
-						Log.e("JOGOSERVICE", fato.getString("nome"));
-						Log.e("JOGOSERVICE", fato.getString("minuto"));
-						Log.e("JOGOSERVICE", fato.getString("tempo"));
-						Log.e("JOGOSERVICE", fato.getString("jogo"));*/
 						NotificationCompat.Builder mBuilder =
 						        new NotificationCompat.Builder(getBaseContext())
 						        .setSmallIcon(R.drawable.ic_launcher)
